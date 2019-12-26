@@ -6,7 +6,8 @@ import org.junit.Test;
 import static com.xk.FindMaxArea.findMaxArea;
 
 /**
- * @author pingchun@gegejia.com
+ * 查找最大的相邻区域个数单元测试类
+ * @author tianming.xm@gmail.com
  * @since 2019/12/26
  */
 public class FindMaxAreaTest {
