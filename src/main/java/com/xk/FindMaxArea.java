@@ -2,6 +2,12 @@ package com.xk;
 
 import java.util.stream.IntStream;
 
+/**
+ * 查找最大的相邻区域个数
+ * @author tianming.xm@gmail.com
+ * @since 2019/12/26
+ * @version 1.0.0
+ */
 public class FindMaxArea {
 
     /**
@@ -9,7 +15,7 @@ public class FindMaxArea {
      * @param data  二维数据数组
      * @param rowIndex  行索引
      * @param columnIndex 列索引
-     * @return
+     * @return 连续数据的最长长度
      */
     public static int findMaxArea(int[][] data,int rowIndex,int columnIndex){
         //根据数组长度，构造一个Int流，并转为并发流，开始遍历数组,筛选最大值
@@ -21,10 +27,10 @@ public class FindMaxArea {
     /**
      * 按照数组从上到下进行遍历计算
      * 尽最大努力进行搜索遍历，类似于二叉树的广度优先搜索
-     * @param data
+     * @param data 二维数据数组
      * @param rowIndex 行索引
      * @param columnIndex 列索引
-     * @return
+     * @return 连续数据的长度
      */
     private static int doCompute(int[][] data,int rowIndex,int columnIndex){
 
